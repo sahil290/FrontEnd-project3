@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.navbar-brand {
+  font-size: 1.5em !important;
+}
+li {
+  font-size: 1.2em !important;
+}
+#main-container {
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+  background-image: url(https://whizfortune.com/wp-content/uploads/2021/02/shopping-cart-on-blue-and-yellow-background-minima-ARBKQCB.jpg);
+}
+#middle-container {
+  position: absolute;
+  font-family: sans-serif;
+  color: #fff;
+  left: 27%;
+  top: 20%;
+  background-color: rgba(0, 0, 0, 0.685);
+  height: 40vh;
+  width: 90vh;
+  box-shadow: 1px 5px 8px 3px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 1px 5px 8px 3px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 1px 5px 8px 3px rgba(0, 0, 0, 0.58);
+}
+
